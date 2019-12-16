@@ -1,0 +1,5 @@
+model_checkpoint_path: "trained.ckpt-440000"
+all_model_checkpoint_paths: "trained.ckpt-434000"
+all_model_checkpoint_paths: "trained.ckpt-436000"
+all_model_checkpoint_paths: "trained.ckpt-438000"
+all_model_checkpoint_paths: "trained.ckpt-440000"
