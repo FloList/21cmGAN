@@ -1,5 +1,5 @@
 # 21cmGAN
-This is the Tensorflow implementation of the code 21cmGAN, which generates 2D tomographic samples of the 21cm brightness temperature of HI gas at a resolution of (up to) 32 x 256 pixels during the Epoch of Reionisation between redshifts  <img src="https://render.githubusercontent.com/render/math?math=z = 6 - 15">. The paper can be found here: **INSERT LINK!**. The neural network is a progressively growing generative adversarial network (PGGAN, T. Karras, T. Aila, S. Laine, J. Lehtinen, *Progressive Growing of GANs for Improved Quality, Stability, and Variation*, [arXiv:1710.10196](https://arxiv.org/abs/1710.10196)).
+This is the Tensorflow implementation of the code 21cmGAN, which generates 2D tomographic samples of the 21cm brightness temperature of HI gas at a resolution of (up to) 32 x 256 pixels during the Epoch of Reionisation between redshifts  <img src="https://render.githubusercontent.com/render/math?math=z = 6 - 15">. The paper can be found here: [https://doi.org/10.1093/mnras/staa523](https://doi.org/10.1093/mnras/staa523) ([arXiv:2002.07940](https://arxiv.org/pdf/2002.07940.pdf)). The neural network is a progressively growing generative adversarial network (PGGAN, T. Karras, T. Aila, S. Laine, J. Lehtinen, *Progressive Growing of GANs for Improved Quality, Stability, and Variation*, [arXiv:1710.10196](https://arxiv.org/abs/1710.10196)).
 
 ![PGGAN](https://github.com/FloList/21cmGAN/blob/master/pngs/PGGAN_sketch.png)
 
@@ -12,6 +12,8 @@ The 21cmGAN code makes use of code snippets from the following sources:
 
 *Author*: Florian List (Sydney Institute for Astronomy, School of Physics, A28, The University of Sydney, NSW 2006, Australia).
 
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details at http://www.gnu.org/copyleft/gpl.html.
+   
 For any queries, please contact me at flis0155 at uni dot sydney dot edu dot au.
 
 The training data is taken from the 21SSD catalogue (B. Semelin, E. Eames, F. Bolgar, M. Caillat, *21SSD: a public data base of simulated 21-cm signals from the epoch of reionization*, 2017, [MNRAS 472, 4508](http://academic.oup.com/mnras/article/472/4/4508/4104651/21SSD-a-public-data-base-of-simulated-21cm-signals)).
